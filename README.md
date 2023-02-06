@@ -33,7 +33,7 @@ K-Nearest Neighbor would be an ok choice. I first tried training the model with 
 would be available prior to a film's release. That yeilded a 63.2% accuracy rate when it came to predictions,
 not great. Having already run through the RFE and determined that the best 3 features for predicting whether a movie 
 will be profitable I trimmed down the features to just those three and ran it through the same algorithm - 63.11%.
-I iterated this technique two more times trying the best two features and then the feature. The biggest difference
+I iterated this technique two more times trying the best two features and then the best feature. The biggest difference
 between the best and worst prediction accuracies was only about 1.5% and the best results came from having a greater
 number of features available to predict from.
 
